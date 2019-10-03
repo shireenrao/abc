@@ -1,6 +1,6 @@
 # About Boston Python
 
-Content and configuration for <https://shireenrao.github.io>, build with [Pelican](https://blog.getpelican.com/) and hosted on [GitHub Pages](https://pages.github.com/).
+Content and configuration for <http://abc.bostonpy.xyz/>, build with [Pelican](https://blog.getpelican.com/) and hosted on [GitHub Pages](https://pages.github.com/).
 
 ## Building the site locally
 
