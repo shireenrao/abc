@@ -9,3 +9,5 @@ We use [Slack]({filename}slack.md) for online discussions.
 All of our interactions are covered by our [code of conduct]({filename}code-of-conduct.md).
 
 If you are an employer, you can [announce jobs]({filename}jobs.md) and even [sponsor events]({filename}sponsorship.md).
+
+** Added to test CI **
