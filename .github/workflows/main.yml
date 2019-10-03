@@ -9,7 +9,6 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - uses: jefftriplett/python-actions@master
     - name: Install dependencies
       run: pip install --upgrade pip && pip install -r requirements.txt
     - name: Deploy
