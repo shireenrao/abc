@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: "jefftriplett/python-actions@master"
+    - name: Install dependencies
+      run: pip install --upgrade pip && pip install -r requirements.txt
+    - name: Deploy
+      run: ./deploy-to-gh-pages.sh
+      env: 
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
