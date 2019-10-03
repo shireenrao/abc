@@ -8,7 +8,7 @@ SITEURL = ""
 SITESUBTITLE = "The Boston-area Python user group"
 
 PATH = "content"
-OUTPUT_PATH = 'docs/'
+OUTPUT_PATH = 'output/'
 
 TIMEZONE = "America/New_York"
 
