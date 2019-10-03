@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -z "$ACCESS_TOKEN" ]
+if [ -z "$ACCESS_KEY" ]
 then
   echo "No access token!"
   exit 1
@@ -10,7 +10,7 @@ FOLDER='output'
 BASE_BRANCH='master'
 BRANCH='gh-pages'
 COMMIT_EMAIL="${GITHUB_ACTOR}@users.noreply.github.com"
-REPOSITORY_PATH="https://${ACCESS_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+REPOSITORY_PATH="https://${ACCESS_KEY}@github.com/${GITHUB_REPOSITORY}.git"
 
 
 echo '----- Deploy Settings -----'
