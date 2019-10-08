@@ -1,6 +1,6 @@
 Title: Posting jobs
 URL: jobs
-save_as: jobs.html
+save_as: jobs
 slug: jobs
 
 The Boston Python group is focused on building a community in the Boston area among Python people.  We are always interested to hear about jobs relevant to members of the community. Such postings can be sent to our mailing list, posted to our Slack workspace, or both.
