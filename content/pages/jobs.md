@@ -1,5 +1,5 @@
 Title: Posting jobs
-URL: jobs.html
+URL: jobs
 save_as: jobs.html
 slug: jobs
 
